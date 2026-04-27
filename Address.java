@@ -17,7 +17,6 @@ public class Address {
     @Override
     public boolean equals(Object obj) {
         Address o = (Address) obj;
-        System.out.println(o.country + "+" + o.city);
         return country.equals(o.country) && city.equals(o.city);
     }
 }
